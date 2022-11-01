@@ -42,8 +42,8 @@ li {
     color: #ffffff;
     height: 25px;
     margin-top: 2%;
-    margin-left: 0.5%;
-    padding: 0.7%;
+    margin-left: 1%;
+    padding: 1.5%;
 }
 
 .a_head {
@@ -54,6 +54,14 @@ li {
     cursor: pointer;
 }
 
+.headbcg {
+    background-color: black;
+    display: flex;
+    position: absolute;
+    padding: 44px;
+    width: 93.33%;
+}
+
 .banner {
     padding: 20% 0;
     font-size: 25px;
@@ -61,7 +69,8 @@ li {
     background-image: url(background-image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 80vh;
+    height: 87vh;
+    z-index: 999;
 }
 
 .banner p{
