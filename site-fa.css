@@ -6,7 +6,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: cornflowerblue;
+    background-color: rgba(45, 40, 251, 0.65);
+    position: absolute;
 }
 
 .head {
@@ -14,7 +15,6 @@ header {
     padding: 2% 0.7%;
     display: flex;
     justify-content: space-between;
-    background-color: cornflowerblue;
 }
 
 .container {
@@ -46,26 +46,63 @@ li {
     padding: 0.7%;
 }
 
-a {
-    background-color: gold;
-    color: indigo;
+.a_head {
+    color: #d2d2d2;
     width: 100%;
     height: 1%;
-    border-radius: 4px;
     margin-top: 2%;
     cursor: pointer;
-    transition: 0.3s ease-in-out;
-}
-
-a:hover{
-    background-color: crimson;
-    color: blue;
 }
 
 .banner {
     padding: 20% 0;
-    font-size: 40px;
-    color: #FFFFFF;
+    font-size: 25px;
+    color: #d2d2d2;
     background-image: url(background-image.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
+    height: 80vh;
+}
+
+.banner p{
+    display: flex;
+    text-align: center;
+    margin-top: 48%;
+    padding: 0 35%;
+}
+
+.banner span{
+    display: flex;
+    text-align: center;
+    padding: 0 29%;
+}
+
+.click {
+    color: #d2d2d2;
+    padding-right: 7px;
+}
+
+.jogos {
+    background-color: black;
+    height: 30vh;
+    color: #d2d2d2;
+    display: flex;
+    text-align: center;
+}
+
+.jogos .container{
+    width: 80%;
+}
+
+.titulo {
+    display: flex;
+    position: absolute;
+    text-align: center;
+    margin-bottom: 10%;
+    margin-left: 25.5%;
+    font-size: 30px;
+}
+
+.caixas {
+    margin-top: 2%;
 }
