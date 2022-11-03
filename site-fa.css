@@ -12,7 +12,7 @@ header {
 
 .head {
     width: 98.6%;    
-    padding: 2% 0.7%;
+    padding: 1.4% 0.7%;
     display: flex;
     justify-content: space-between;
 }
@@ -23,12 +23,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-h1 {
-    color: #FFFFFF;
-    font-weight: 600;
 }
 
 ul {
@@ -39,7 +33,7 @@ ul {
 }
 
 li {
-    color: #ffffff;
+    color: #d2d2d2;
     height: 25px;
     margin-top: 2%;
     margin-left: 1%;
@@ -59,24 +53,23 @@ li {
     display: flex;
     position: absolute;
     padding: 44px;
-    width: 93.33%;
+    width: 95.3%;
 }
 
 .banner {
     padding: 20% 0;
     font-size: 25px;
     color: #d2d2d2;
-    background-image: url(background-image.jpg);
+    background-image: url(./imagens/background-image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 87vh;
-    z-index: 999;
+    height: 60vh;
 }
 
 .banner p{
     display: flex;
     text-align: center;
-    margin-top: 48%;
+    margin-top: 38%;
     padding: 0 35%;
 }
 
@@ -91,27 +84,97 @@ li {
     padding-right: 7px;
 }
 
-.jogos {
-    background-color: black;
-    height: 30vh;
+.social {
+    padding: 50px;
+    background-color: #000000;
+}
+
+.social h2 {
     color: #d2d2d2;
     display: flex;
     text-align: center;
+    justify-content: center;
 }
 
-.jogos .container{
-    width: 80%;
-}
-
-.titulo {
+.social .caixas, .caixa {
     display: flex;
-    position: absolute;
-    text-align: center;
-    margin-bottom: 10%;
-    margin-left: 25.5%;
-    font-size: 30px;
+    margin: 40px 0;
 }
 
 .caixas {
-    margin-top: 2%;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.caixa {
+    flex-direction: column;
+    align-items: center;
+}
+
+.caixa h4 {
+    margin: 15px 0;
+}
+
+.caixa p {
+    text-align: center;
+    color: #d2d2d2; 
+    width: 250px;
+}
+
+.caixa img {
+    width: 250px;
+    height: 170px;
+}
+
+.footbcg {
+    background-color: black;
+    display: flex;
+    position: absolute;
+    padding: 88px 0px;
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(45, 40, 251, 0.65);
+    position: absolute;
+    width: 96.8%;
+    padding-left: 60px;
+}
+
+.footer .caixas, .caixa {
+    display: flex;
+}
+
+.footer .caixas {
+    width: 120%;
+}
+
+.caixa a {
+    color: #d2d2d2;
+    cursor: pointer;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #d2d2d2; 
+    width: 250px;
+    margin: 40px 0;
+}
+
+.box .icon {
+    display: flex;
+    height: 20px;
+    width: 20px;
+    padding-left: 112px;
+}
+
+.copyright {
+    color: #d2d2d2;
+    display: flex;
+    text-align: center;
 }
